@@ -1,0 +1,17 @@
+@keyframes efecto {
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+}
+
+@media screen and (min-width: 270px) and (max-width: 504px){
+    .galeria_item:first-of-type{
+        grid-column: 1 / span 2;
+    }
+    .galeria{
+        grid-auto-rows: 283px;
+    }
+}
