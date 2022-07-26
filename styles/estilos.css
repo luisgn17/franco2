@@ -158,6 +158,21 @@ img {
   transition: 0.9;
 }
 
+.row {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+.column img {
+  margin-top: 5px;
+}
+
 footer .bi {
   color: black;
   padding: 20px;
@@ -226,5 +241,10 @@ footer .bi:hover::before {
   }
   .contenedorimag .imagen {
     width: 48%;
+  }
+}
+@media (max-width: 600px) {
+  .column {
+    flex: 50%;
   }
 }/*# sourceMappingURL=estilos.css.map */
