@@ -173,6 +173,10 @@ img {
   margin-top: 5px;
 }
 
+img {
+  max-width: 100%;
+}
+
 footer .bi {
   color: black;
   padding: 20px;
