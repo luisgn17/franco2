@@ -127,3 +127,14 @@ img{
     height: 100%;
     cursor: pointer;
 }
+.loader{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    background: url('/media/logofra2.jpg') 50% 50% no-repeat rgba(249, 249, 249, 0);
+    opacity: .8;
+    transition: .9;
+}
